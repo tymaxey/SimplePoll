@@ -1,0 +1,49 @@
+body {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 90px;
+    background-color: darkslategrey
+}
+
+body {
+    display: flex;
+    align-content: space-between;
+}
+
+button {
+    background-color: rgb(202, 29, 101);
+    height: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 0.4em;
+    margin-left: 1em;
+    justify-content: flex-end;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    color: ghostwhite;
+    text-align: justify;
+}
+
+input {
+    margin: 2%;
+    border-radius: 0.5em;
+    border-color: rgb(187, 187, 187);
+    height: 2em;
+    width: 20em;
+    padding-left: 1em;
+    border-radius: 0.4em;
+}
+
+
+.createPollContainer {
+    flex-basis: 50%;
+    padding-left: 2em;
+}
+
+.viewAndVoteContainer {
+    flex-basis: 50%;
+}
